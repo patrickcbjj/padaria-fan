@@ -61,3 +61,59 @@ body {
     color: #f39c12;
 }
 
+.nossa-estrutura {
+    background-color: #f8f9fa;
+}
+
+.nossa-estrutura .feature {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.nossa-estrutura .feature:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.nossa-estrutura i {
+    color: #f39c12;
+}
+
+.nossa-estrutura h4 {
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
+
+.nossa-estrutura p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.sobre-nos {
+    background-color: #fff;
+    color: #333;
+}
+
+.sobre-nos h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.sobre-nos p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.sobre-nos .lead {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.sobre-nos .text-muted {
+    font-size: 1rem;
+    color: #777;
+}
+
