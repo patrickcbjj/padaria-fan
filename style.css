@@ -117,3 +117,25 @@ body {
     color: #777;
 }
 
+.card:hover {
+    opacity: 75%;
+}
+
+.carousel-item:hover {
+    opacity: 75%;
+}
+
+.carousel-caption {
+    color: #000000;
+    padding: 5px 10px;
+    opacity: 75%;
+    display: inline-block;
+    max-width: fit-content;
+    padding: 5px 10px;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    background-color: rgba(44, 62, 80, 0.75);
+    color: #ffffff;
+}
